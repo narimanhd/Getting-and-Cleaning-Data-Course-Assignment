@@ -46,7 +46,7 @@ names(data)<-gsub("^f", "Frequency", names(data))
 names(data)<-gsub("tBody", "TimeBody", names(data))
 names(data)<-gsub("-mean()", "Mean", names(data), ignore.case = TRUE)
 names(data)<-gsub("-std()", "STD", names(data), ignore.case = TRUE)
-names(dData)<-gsub("-freq()", "Frequency", names(data), ignore.case = TRUE)
+names(data)<-gsub("-freq()", "Frequency", names(data), ignore.case = TRUE)
 names(data)<-gsub("angle", "Angle", names(data))
 names(data)<-gsub("gravity", "Gravity", names(data))
 
